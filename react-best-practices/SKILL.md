@@ -60,6 +60,7 @@ Rules are prioritized by impact:
 ### Medium-Impact Client Patterns
 
 - Use SWR for automatic request deduplication
+- Choose the right state tool (`useState` / `useReducer` / derive during render / `useRef` for escape hatches)
 - Defer state reads to usage point
 - Use lazy state initialization for expensive values
 - Use derived state subscriptions
